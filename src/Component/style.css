@@ -16,7 +16,6 @@
 }
 .cards .title > p {
   color: #040429;
-  font-style: normal;
   font-weight: 800;
   font-size: 20px;
   line-height: 96%;
@@ -24,12 +23,7 @@
   margin: 0;
   padding: 0;
 }
-.imagePersonne {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
 .title {
   margin-bottom: 13px;
   margin-top: 33px;
@@ -82,8 +76,6 @@
 }
 
 .text > p {
-  font-style: normal;
-  font-weight: 300;
   font-size: 24px;
   line-height: 124%;
   margin-top: 20px;

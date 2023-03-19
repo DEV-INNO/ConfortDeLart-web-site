@@ -5,7 +5,6 @@ import confor1 from "../assets/images/confor1.png";
 import confor2 from "../assets/images/confor2.png";
 import casque from "../assets/images/casque.png";
 
-
 function Confor() {
   var settings = {
     dots: true,
@@ -18,36 +17,31 @@ function Confor() {
   };
   return (
     <div className="confor">
-     <div className="container">
-     <div className="row">
-        <div className="col-xs-12 col-md-6 col-lg-6 col-sm-12">
-          <Slider {...settings}>
-            <div>
-              <img src={confor} alt="Confor" />
-            </div>
-            <div>
-              <img src={confor1} alt="Confor1" />
-            </div>
-            <div >
+      <div className="container">
+        <div className="row">
+          <div className="col-xs-12 col-md-6 col-lg-6 col-sm-12">
+            <Slider {...settings}>
+              <img src={confor} alt="Confor"/>
+              <img src={confor1} alt="Confor1"/>
               <img src={confor2} alt="Confor2" />
-            </div>
-          </Slider>
-        </div>
-        <div className="col-xs-12 col-md-6 col-lg-6 col-sm-12 text">
-          <img src={casque} alt="casque" />
-          <h3>CONFORT DE L’ART</h3>
-          <p>Est une entreprise œuvrant dans le domaine d’immobilier et de 
-            mobiliers qui prête ses services a sa clientèle depuis janvier 2015.
-             sa légalisation a été effective depuis juin 2021. l’esprit 
-             d’initiative personnel pour un encadrement de la jeunesse 
-             et l’amour du travail bien fait en toute honnêteté lui a 
-             valu le privilège de mériter la confiance des particuliers 
-             ainsi que certaines organisations avant même la reconnaissance 
-             de l’exitance de l’entreprise légalement.</p>
+            </Slider>
+          </div>
+          <div className="col-xs-12 col-md-6 col-lg-6 col-sm-12 text">
+            <img src={casque} alt="casque" />
+            <h3>CONFORT DE L’ART</h3>
+            <p>
+              Est une entreprise œuvrant dans le domaine d’immobilier et de
+              mobiliers qui prête ses services a sa clientèle depuis janvier
+              2015. sa légalisation a été effective depuis juin 2021. l’esprit
+              d’initiative personnel pour un encadrement de la jeunesse et
+              l’amour du travail bien fait en toute honnêteté lui a valu le
+              privilège de mériter la confiance des particuliers ainsi que
+              certaines organisations avant même la reconnaissance de l’exitance
+              de l’entreprise légalement.
+            </p>
+          </div>
         </div>
       </div>
-
-     </div>
     </div>
   );
 }

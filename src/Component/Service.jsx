@@ -18,7 +18,7 @@ function Service() {
             >
               <div className="projetone carteall">
                 <div className="cards">
-                  <p>Salle Polyvalente</p>
+                  <h6>Salle Polyvalente</h6>
                 </div>
               </div>
             </div>
@@ -28,7 +28,7 @@ function Service() {
             >
               <div className="projetwo carteall">
                 <div className="cards ">
-                  <p>Maison d'habitation</p>
+                  <h6>Maison d'habitation</h6>
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@ function Service() {
             >
               <div className="projettree carteall">
                 <div className="cards">
-                  <p>Maison commerciale</p>
+                  <h6>Maison commerciale</h6>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ function Service() {
             >
               <div className="projetfour carteall">
                 <div className="cards">
-                  <p>Appartement</p>
+                  <h6>Appartement</h6>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ function Service() {
             >
               <div className="projetfive carteall">
                 <div className="cards ">
-                  <p>Décoration interne</p>
+                  <h6>Décoration interne</h6>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ function Service() {
             >
               <div className="projetsix carteall">
                 <div className="cards ">
-                  <p>Salle Terrase</p>
+                  <h6>Salle Terrase</h6>
                 </div>
               </div>
             </div>
@@ -77,16 +77,16 @@ function Service() {
       </div>
 
      <div id="main">
-     <div id="counts" class="counts">
-        <div class="container">
-          <div class="row counters">
+     <div id="counts" className="counts">
+        <div className="container">
+          <div className="row counters">
             <div className="col-lg-3 col-6 text-center">
-              <img src={projet} alt="execution" />
+            <img src={projet} alt="execution" />
               <span
                 data-purecounter-start="0"
                 data-purecounter-end="232"
                 data-purecounter-duration="1"
-                class="purecounter"
+                className="purecounter"
               ></span>
               <p>Projets en exécution</p>
             </div>
@@ -97,7 +97,7 @@ function Service() {
                 data-purecounter-start="0"
                 data-purecounter-end="521"
                 data-purecounter-duration="1"
-                class="purecounter"
+                className="purecounter"
               ></span>
               <p>Clients</p>
             </div>
@@ -108,7 +108,7 @@ function Service() {
                 data-purecounter-start="0"
                 data-purecounter-end="1463"
                 data-purecounter-duration="1"
-                class="purecounter"
+                className="purecounter"
               ></span>
               <p>Ingenieur</p>
             </div>
@@ -119,7 +119,7 @@ function Service() {
                 data-purecounter-start="0"
                 data-purecounter-end="15"
                 data-purecounter-duration="1"
-                class="purecounter"
+                className="purecounter"
               ></span>
               <p>Chantiers</p>
             </div>
@@ -153,19 +153,19 @@ function Service() {
                         Explicabo voluptatem mollitia et repellat qui dolorum
                         quasi
                       </p>
-                      <div class="social">
+                      <div className="social">
                         <a href="">
-                          <i class="ri-twitter-fill"></i>
+                          <i className="ri-twitter-fill"></i>
                         </a>
                         <a href="">
-                          <i class="ri-facebook-fill"></i>
+                          <i className="ri-facebook-fill"></i>
                         </a>
                         <a href="">
-                          <i class="ri-instagram-fill"></i>
+                          <i className="ri-instagram-fill"></i>
                         </a>
                         <a href="">
                           {" "}
-                          <i class="ri-linkedin-box-fill"></i>{" "}
+                          <i className="ri-linkedin-box-fill"></i>{" "}
                         </a>
                       </div>
                     </div>
@@ -181,7 +181,7 @@ function Service() {
                     <div className="pic">
                       <img
                         src="assets/img/team/team-2.jpg"
-                        class="img-fluid"
+                        className="img-fluid"
                         alt=""
                       />
                     </div>
@@ -194,17 +194,17 @@ function Service() {
                       </p>
                       <div className="social">
                         <a href="">
-                          <i class="ri-twitter-fill"></i>
+                          <i className="ri-twitter-fill"></i>
                         </a>
                         <a href="">
-                          <i class="ri-facebook-fill"></i>
+                          <i className="ri-facebook-fill"></i>
                         </a>
                         <a href="">
-                          <i class="ri-instagram-fill"></i>
+                          <i className="ri-instagram-fill"></i>
                         </a>
                         <a href="">
                           {" "}
-                          <i class="ri-linkedin-box-fill"></i>{" "}
+                          <i className="ri-linkedin-box-fill"></i>{" "}
                         </a>
                       </div>
                     </div>
@@ -220,7 +220,7 @@ function Service() {
                     <div className="pic">
                       <img
                         src="assets/img/team/team-3.jpg"
-                        class="img-fluid"
+                        className="img-fluid"
                         alt=""
                       />
                     </div>
@@ -233,17 +233,17 @@ function Service() {
                       </p>
                       <div className="social">
                         <a href="">
-                          <i class="ri-twitter-fill"></i>
+                          <i className="ri-twitter-fill"></i>
                         </a>
                         <a href="">
-                          <i class="ri-facebook-fill"></i>
+                          <i className="ri-facebook-fill"></i>
                         </a>
                         <a href="">
-                          <i class="ri-instagram-fill"></i>
+                          <i className="ri-instagram-fill"></i>
                         </a>
                         <a href="">
                           {" "}
-                          <i class="ri-linkedin-box-fill"></i>{" "}
+                          <i className="ri-linkedin-box-fill"></i>{" "}
                         </a>
                       </div>
                     </div>
@@ -259,7 +259,7 @@ function Service() {
                     <div className="pic">
                       <img
                         src="assets/img/team/team-4.jpg"
-                        class="img-fluid"
+                        className="img-fluid"
                         alt=""
                       />
                     </div>
@@ -272,17 +272,17 @@ function Service() {
                       </p>
                       <div className="social">
                         <a href="">
-                          <i class="ri-twitter-fill"></i>
+                          <i className="ri-twitter-fill"></i>
                         </a>
                         <a href="">
-                          <i class="ri-facebook-fill"></i>
+                          <i className="ri-facebook-fill"></i>
                         </a>
                         <a href="">
-                          <i class="ri-instagram-fill"></i>
+                          <i className="ri-instagram-fill"></i>
                         </a>
                         <a href="">
                           {" "}
-                          <i class="ri-linkedin-box-fill"></i>{" "}
+                          <i className="ri-linkedin-box-fill"></i>{" "}
                         </a>
                       </div>
                     </div>

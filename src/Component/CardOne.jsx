@@ -8,18 +8,15 @@ import personnel from "../assets/icons/personnel.png";
 
 function CardOne() {
   return (
-    <>
-    
     <div className="cardsecond">
-      
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-4 cardOne">
             <div className="row">
-              <div className="col-xs-6 col-sm-3 col-lg-3 col-md-3  imagePersonne">
-                <div><img src={personnel} alt="personnel" /></div>
+              <div className="col-sm-12 col-lg-3 col-md-4  imagePersonne">
+                <img src={personnel} alt="personnel" />
               </div>
-              <div className="col-xs-6 col-sm-9 col-lg-9 col-md-9">
+              <div className="col-sm-12 col-lg-9 col-md-8">
                 <div className="cards">
                   <div className="title">
                     <p>Personnel </p>
@@ -137,7 +134,6 @@ function CardOne() {
         </div>
       </div>
     </div>
-    </>
   );
 }
 
