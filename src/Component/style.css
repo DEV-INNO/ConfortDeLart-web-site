@@ -51,8 +51,7 @@
   padding: 0;
 }
 .cards > p {
-  font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 15px;
   line-height: 96%;
 }

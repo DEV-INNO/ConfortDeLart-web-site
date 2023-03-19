@@ -81,7 +81,7 @@ const letter = {
   animate: {
     y: 0,
     transition: { duration: 1, ...transition },
-    fontSize: "50px",
+    fontSize: "90px",
   },
 };
 
@@ -185,7 +185,7 @@ function App() {
                   R
                 </motion.span>
                 <motion.span variants={letter} style={{ color: "#fff" }}>
-                  E{` `}
+                  E&nbsp;
                 </motion.span>
                 <motion.span variants={letter} className="second"></motion.span>
                 <motion.span variants={letter} style={{ color: "#fff" }}>
@@ -195,7 +195,7 @@ function App() {
                   R
                 </motion.span>
                 <motion.span variants={letter} style={{ color: "#fff" }}>
-                  T
+                  T&nbsp;
                 </motion.span>
               </motion.span>
               <br />
@@ -215,7 +215,7 @@ function App() {
                   I
                 </motion.span>
                 <motion.span variants={letter} style={{ color: "#fff" }}>
-                  T
+                  T&nbsp;
                 </motion.span>
                 <motion.span variants={letter}></motion.span>
                 <motion.span variants={letter} className="second"></motion.span>
@@ -232,24 +232,24 @@ function App() {
                   R
                 </motion.span>
                 <motion.span variants={letter} style={{ color: "#fff" }}>
-                  E
+                  E&nbsp;
                 </motion.span>
-                <motion.span variants={letter}></motion.span>
+                <br/>
                 <motion.span variants={letter} className="second"></motion.span>
                 <motion.span variants={letter} style={{ color: "#FE0000" }}>
-                  M
+                  C
                 </motion.span>
                 <motion.span variants={letter} style={{ color: "#FE0000" }}>
-                  E
+                  O
                 </motion.span>
                 <motion.span variants={letter} style={{ color: "#FE0000" }}>
-                  T
+                  N
                 </motion.span>
                 <motion.span variants={letter} style={{ color: "#FE0000" }}>
-                  I
+                  F
                 </motion.span>
                 <motion.span variants={letter} style={{ color: "#FE0000" }}>
-                  E
+                  O
                 </motion.span>
                 <motion.span
                   variants={letter}
@@ -257,6 +257,7 @@ function App() {
                 >
                   R
                 </motion.span>
+                
               </motion.span>
             </motion.h2>
             <p style={{ color: "#fff" }}>
@@ -303,7 +304,6 @@ function App() {
       <Confor />
       <Card />
       <Personnel/>
-      
       <Service/>
       <Footer/>
     </>

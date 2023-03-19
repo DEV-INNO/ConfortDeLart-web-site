@@ -5,14 +5,13 @@
   justify-content: center;
   align-items: center;
 }
-.cards{
+.cards {
   margin-bottom: 20px;
   position: relative;
-}
-.cards:hover .card-body {
-  display: block;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 100px 100px -20px;
-  transition: all 0.5 ease-in-out;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cards-img {
@@ -20,21 +19,6 @@
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
-}
-
-.card-body {
-  width: 100%;
-  display: none;
-  height: 30%;
-  text-align: center;
-  bottom: 0;
-  transition: 0.5s ease-in-out;
-  position: absolute;
-  background: #0009;
-  backdrop-filter: blur(5px);
-  border-radius: 15px;
-  color: #fff !important;
-  padding: 30px;
 }
 
 .cards-title {
@@ -68,7 +52,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image:linear-gradient(to bottom,#040429, #0008 ), url("../assets/images/image1.png");
+  background-image: linear-gradient(to bottom, #040429, #0008),
+    url("../assets/images/image1.png");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -123,8 +108,6 @@
   margin-bottom: 154px;
 }
 .subtitleGauche {
-  font-style: normal;
-  font-weight: 300;
   font-size: 20px;
   line-height: 23px;
   color: white;
@@ -171,7 +154,6 @@
 .footerclasse > h2 {
   color: #ad0101;
   font-size: 42px;
-
   text-align: center;
 }
 .footerclasse > p {
@@ -188,7 +170,7 @@
 .serviceFooter > p {
   color: #000;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 12px;
   text-align: center;
   cursor: pointer;
@@ -202,13 +184,108 @@
   padding: 5px;
   color: white;
 }
-.titleProjet{
-  color: #AD0101;
+.titleProjet {
+  color: #ad0101;
   text-align: center;
   font-size: 48px;
   margin-bottom: 67px;
   text-transform: uppercase;
 }
-.services{
+.services {
   width: 100vw;
+}
+.projetone {
+  background-image: url("../assets/images/recent/polyvalente.png");
+  transition: all 1s ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.projetone:hover {
+  background-image: linear-gradient(to bottom, #000, #0008),
+    url("../assets/images/casque.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.projetwo {
+  background-image: url("../assets/images/recent/habitation.png");
+  transition: 0.5s all ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.projetwo:hover {
+  background-image: linear-gradient(to bottom, #000, #0008),
+    url("../assets/images/confor.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.projettree {
+  background-image: url("../assets/images/recent/commercial.png");
+  transition: 0.5s all ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.projettree:hover {
+  background-image: linear-gradient(to bottom, #000, #0008),
+    url("../assets/images/confor2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.projetfour {
+  background-image: url("../assets/images/recent/appartement.png");
+  transition: 0.5s all ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.projetfour:hover {
+  background-image: linear-gradient(to bottom, #000, #0008),
+    url("../assets/images/casque.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.projetfive {
+  background-image: url("../assets/images/recent/decoration.png");
+  transition: 0.5s all ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.projetfive:hover {
+  background-image: linear-gradient(to bottom, #000, #0008),
+    url("../assets/images/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.projetsix {
+  background-image: url("../assets/images/recent/terase.png");
+  transition: 0.5s all ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.projetsix:hover {
+  background-image: linear-gradient(to bottom, #000, #0008),
+    url("../assets/images/confor1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.cards > p {
+  font-size: 30px;
+  font-weight: bolder;
+  display: none;
 }
