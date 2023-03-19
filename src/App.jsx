@@ -257,6 +257,12 @@ function App() {
                 >
                   R
                 </motion.span>
+                <motion.span
+                  variants={letter}
+                  style={{ color: "#FE0000", fontSize: "20px" }}
+                >
+                  T
+                </motion.span>
                 
               </motion.span>
             </motion.h2>
