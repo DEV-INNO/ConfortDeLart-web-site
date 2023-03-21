@@ -193,6 +193,9 @@
   .subtitleGauche{
     margin-right: 40px;
   }
+  .menu_container >span{
+    margin-left: 20px;
+  }
 }
 @media screen and (max-width:991px) {
   .confor{
@@ -208,10 +211,27 @@
     margin-right: 10px;
     line-height: 190%!important;
   }
-  .menu_container{
-    background-color: red;
+ 
+}
+
+@media screen and (max-width:991px) {
+  .menu_container {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 56px;
   }
   .menu_container >span{
-    width: 150px!important;
+    margin-left: 20px;
   }
-}
+
+  }
+  @media screen and (max-width:962px) {
+    .menu_container >span{
+      margin-left: 20px;
+      width: 20px;
+      background-color: red;
+      word-spacing: normal;
+    }
+    
+  }
