@@ -13,7 +13,7 @@ function Service() {
         <div className="container-fluid">
           <div className="row">
             <div
-              className="col-md-4 col-lg-4 col-sm-12"
+              className="col-md-6 col-lg-4 col-sm-12"
               style={{ marginBottom: "10px" }}
             >
               <div className="projetone carteall">
@@ -23,7 +23,7 @@ function Service() {
               </div>
             </div>
             <div
-              className="col-md-4 col-lg-4 col-sm-12"
+              className="col-md-6 col-lg-4 col-sm-12"
               style={{ marginBottom: "10px" }}
             >
               <div className="projetwo carteall">
@@ -33,7 +33,7 @@ function Service() {
               </div>
             </div>
             <div
-              className="col-md-4 col-lg-4 col-sm-12 "
+              className="col-md-6 col-lg-4 col-sm-12 "
               style={{ marginBottom: "10px" }}
             >
               <div className="projettree carteall">
@@ -43,7 +43,7 @@ function Service() {
               </div>
             </div>
             <div
-              className="col-md-4 col-lg-4 col-sm-12 "
+              className="col-md-6 col-lg-4 col-sm-12 "
               style={{ marginBottom: "10px" }}
             >
               <div className="projetfour carteall">
@@ -53,7 +53,7 @@ function Service() {
               </div>
             </div>
             <div
-              className="col-md-4 col-lg-4 col-sm-12 "
+              className="col-md-6 col-lg-4 col-sm-12 "
               style={{ marginBottom: "10px" }}
             >
               <div className="projetfive carteall">
@@ -63,7 +63,7 @@ function Service() {
               </div>
             </div>
             <div
-              className="col-md-4 col-lg-4 col-sm-12 "
+              className="col-md-6 col-lg-4 col-sm-12 "
               style={{ marginBottom: "10px" }}
             >
               <div className="projetsix carteall">
@@ -76,12 +76,11 @@ function Service() {
         </div>
       </div>
 
-     <div id="main">
-     <div id="counts" className="counts">
+      <div id="counts" className="counts mb-10 mt-20">
         <div className="container">
           <div className="row counters">
             <div className="col-lg-3 col-6 text-center">
-            <img src={projet} alt="execution" />
+              <img src={projet} alt="execution" />
               <span
                 data-purecounter-start="0"
                 data-purecounter-end="232"
@@ -101,7 +100,6 @@ function Service() {
               ></span>
               <p>Clients</p>
             </div>
-
             <div className="col-lg-3 col-6 text-center">
               <img src={ingenieur} alt="ingenieur" />
               <span
@@ -125,10 +123,13 @@ function Service() {
             </div>
           </div>
         </div>
+        
       </div>
+      <div className="ceinture">
 
-     </div>
-      <div id="team" className="team">
+        </div>
+
+      <div id="team" className="team mb-5">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

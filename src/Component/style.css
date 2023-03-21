@@ -6,13 +6,12 @@
   background-color: red;
 }
 .cardOne {
-  margin-top: 20px!important;
+  margin-top: 20px !important;
   position: relative;
-  
-}
-.cardOne {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   height: 149px;
+  z-index: 20;
+  background-color: white;
 }
 .cards .title > p {
   color: #040429;
@@ -54,8 +53,13 @@
   position: relative;
   width: 100vw;
 }
+.lescartes {
+  position: absolute;
+  top: calc(100vh - 100px);
+  z-index: 10;
+}
 .confor {
-  margin-top: 50px;
+  margin-top: 20%;
   padding: 10px;
 }
 .text {
@@ -77,7 +81,8 @@
 
 .text > p {
   font-size: 24px;
-  line-height: 124%;
+  line-height: 160%;
   margin-top: 20px;
   text-align: justify;
+  font-weight: 500;
 }

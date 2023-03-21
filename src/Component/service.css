@@ -8,7 +8,6 @@
 .cards {
   margin-bottom: 20px;
   position: relative;
-  height: 100%;
 }
 
 .cards-img {
@@ -158,7 +157,8 @@
 .footerclasse > p {
   text-align: justify;
   margin-left: 60px;
-  margin-top: 28px;
+  margin-top: 2em;
+  font-weight: 600;
 }
 .serviceFooter > h2 {
   color: #000;
@@ -168,8 +168,8 @@
 }
 .serviceFooter > p {
   color: #000;
-  font-size: 15px;
-  font-weight: 300;
+  font-size: 1em;
+  font-weight: 600;
   margin: 12px;
   text-align: center;
   cursor: pointer;
@@ -189,13 +189,16 @@
   font-size: 48px;
   margin-bottom: 67px;
   text-transform: uppercase;
+  font-weight: bolder;
 }
 .services {
+  margin-top: 0 6rem;
   width: 100vw;
+
 }
 .projetone {
   background-image: url("../assets/images/recent/polyvalente.png");
-  transition: all 1s ease-in-out;
+  transition: 1s all ease-in;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -283,14 +286,24 @@
   background-position: center;
   color: white;
 }
-/* .cards > p {
+.cards > h6 {
   font-size: 30px;
   font-weight: bolder;
   display: none;
-} */
+}
 
 .imagePersonne{
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
+}
+.ceinture{
+  height: 5px;
+  background-color: red;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+.counts{
+  width: 100vw;
 }

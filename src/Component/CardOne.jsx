@@ -8,9 +8,29 @@ import personnel from "../assets/icons/personnel.png";
 
 function CardOne() {
   return (
-    <div className="cardsecond">
+    <div className="lescartes">
+      <div className="cardsecond">
       <div className="container">
         <div className="row">
+          <div className="col-xs-12 col-md-6 col-lg-4 col-sm-12 cardOne fourniture">
+            <div className="row">
+              <div className="col-sm-12 col-lg-3 col-md-4 imagePersonne">
+                <img src={fourniture} alt="personnel" />
+              </div>
+              <div className="col-sm-12 col-lg-9 col-md-8">
+                <div className="cards">
+                  <div className="titlewhite title">
+                    <p>Fourniture </p>
+                    <p>De Matériels</p>
+                  </div>
+                  <p className="white">
+                    Nous fournissons des matériels de qualité pour la durabilité
+                    de votre maison.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="col-sm-12 col-md-6 col-lg-4 cardOne">
             <div className="row">
               <div className="col-sm-12 col-lg-3 col-md-4  imagePersonne">
@@ -26,25 +46,6 @@ function CardOne() {
                     Bénéfice de la société où nous sommes
                     <br />
                     opérer le succès pour votre avenir
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xs-12 col-md-6 col-lg-4 col-sm-12 cardOne fourniture">
-            <div className="row">
-              <div className="col-sm-12 col-lg-3 col-md-4 imagePersonne">
-                <img src={fourniture} alt="personnel" />
-              </div>
-              <div className="col-sm-12 col-lg-9 col-md-8">
-                <div className="cards">
-                  <div className="titlewhite title">
-                    <p>Fourniture </p>
-                    <p>De Matériels</p>
-                  </div>
-                  <p className="white">
-                    Nous fournissons des matériels de qualité pour la durabilité
-                    de votre maison.
                   </p>
                 </div>
               </div>
@@ -134,6 +135,8 @@ function CardOne() {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 }
 

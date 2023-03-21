@@ -17,7 +17,7 @@ function Confor() {
   };
   return (
     <div className="confor">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-xs-12 col-md-6 col-lg-6 col-sm-12">
             <Slider {...settings}>
