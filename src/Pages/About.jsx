@@ -12,7 +12,7 @@ function Abouts({ title }) {
   return (
     <div>
       <div className="aboutNav">
-        <NavBar />
+        <NavBar classe={"bluecolor"}/>
       </div>
       <div className="apropos">
         <h2>A PROPOS</h2>

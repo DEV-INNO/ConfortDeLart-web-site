@@ -1,9 +1,9 @@
 .blue {
-    background-color: #040429;
-  }
-  .red {
-    background: #ad0101;
-  }
+  background-color: #040429;
+}
+.red {
+  background: #ad0101;
+}
 
 .aboutNav {
   color: black;
@@ -198,4 +198,114 @@
 .tiquette {
   display: flex;
   margin-bottom: 48px;
+}
+
+/* service */
+.firstdiv {
+  height: 60vh;
+  margin-bottom: 30px;
+  position: relative;
+}
+.laqualite {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 998px;
+  height: 100px;
+  margin: 0px 221px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.laqualite > h2 {
+  font-weight: bolder;
+}
+.serviceemma {
+  height: 55vh;
+  width: 100vw;
+  margin-left: -20px;
+  background-image: linear-gradient(to bottom, #000000, rgba(84, 80, 80, 0.533)),
+    url("../assets/images/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contentservice,
+.cardservice > div > div,
+.servicelitterature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentservice > div > h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 96%;
+  /* identical to box height, or 46px */
+
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #ad0101;
+}
+.contentservice > div > p {
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+.cardservice {
+  height: 238px;
+  margin: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.1);
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardservice > div .textservice {
+  width: 200px;
+  margin-top: 20px;
+  text-align: center;
+  color: #040429;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 105%;
+}
+.servicelitterature {
+  width: 100vw;
+  margin-top: 20px;
+  background: #212146;
+  padding: 60px 0px;
+  
+}
+.servicelitterature > div>h2 {
+  font-weight: 800;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #ad0101;
+}
+.servicelitterature >div>p{
+font-size: 24px;
+line-height: 170%;
+margin-top: 26px;
+text-align: justify;
+width: 1200px;
+color: #FFFFFF;
+}
+.servicelitterature >div>button{
+    background-color: #ad0101;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: wheat;
+}
+.ceintureservice{
+    height: 5px;
+  background-color: red;
+  width: 100vw;
 }

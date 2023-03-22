@@ -7,7 +7,7 @@ function Projet() {
   return (
     <>
       <div className="aboutNav">
-        <NavBar />
+        <NavBar classe={"bluecolor"}/>
       </div>
       <div className="projet">
         <div className="container">

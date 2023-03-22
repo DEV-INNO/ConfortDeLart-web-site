@@ -92,7 +92,7 @@ function Acceuil() {
     <>
       <div id="back">
         <motion.div initial="initial" animate="animate" className="acceuil">
-          <NavBar/>
+          <NavBar classe="redcolor"/>
           <motion.div
             className="content_wrapper"
             initial={{ opacity: 0, scale: 0 }}

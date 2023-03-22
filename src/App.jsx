@@ -7,6 +7,7 @@ import "./index.css";
 import "./Component/style.css";
 import About from "./Pages/About.jsx";
 import Projet from "./Pages/Projet.jsx";
+import Service from "./Pages/Service.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -16,6 +17,7 @@ function App(){
     <Route exact path="/" component={Acceuil} />
     <Route exact path="/about" component={About} />
     <Route exact path="/projet" component={Projet} />
+    <Route exact path="/service" component={Service} />
     <Route component={Acceuil} />
   </Switch>
   )

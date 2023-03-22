@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Footer from "../Component/Footer";
 import { Link } from "react-router-dom";
 
 let easeing = [0.6, -0.05, 0.01, 0.99];
@@ -30,7 +29,7 @@ const header = {
   },
 };
 
-function NavBar() {
+function NavBar({classe}) {
   return (
     <>
       <motion.header variants={stagger}>
@@ -47,9 +46,11 @@ function NavBar() {
               <span>
                 <Link to="/projet" style={{textDecoration:"none", color:"inherit"}}>Projets</Link>
               </span>
-              <span>Services</span>
+              <span>
+                <Link to="/service" style={{textDecoration:"none", color:"inherit"}}>Service</Link>
+              </span>
               <span>Equipe</span>
-              <motion.span className="menu" id="menu" variants={header}>
+              <motion.span className={`${classe}`} id="menu" variants={header}>
                 Contactez-nous
               </motion.span>
             </motion.div>
