@@ -1,0 +1,123 @@
+.aboutNav {
+  color: black;
+  background-color: #ad0101;
+}
+.apropos {
+  height: 291px;
+  background-image: url("../assets/images/confor1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #040429;
+  opacity: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apropos > h2 {
+  color: #ad0101;
+  font-weight: bolder;
+}
+.secondabout {
+  height: 400px;
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+.apropofirst {
+  margin-top: 34px;
+}
+.apropofirst > div > div > div > h2 {
+  color: #040429;
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.apropofirst > div > div > div > div > p {
+  font-size: 24px;
+  line-height: 160%;
+  text-align: justify;
+  margin-right: 30px;
+}
+
+/* Icons */
+.apropos_icons {
+  background-color: #040429;
+  width: 236px;
+  display: flex;
+  color: white;
+}
+.apropos_icons > div > img {
+  margin-left: 36px;
+}
+.apropos_icons > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apropos_icons > div > p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.iconsapropos {
+  display: flex;
+  justify-content: space-between;
+  margin: 39px 0px;
+}
+.iconsapropos .apropos_icons,
+.iconsapropos .apropos_red {
+  margin-left: 10px;
+}
+.apropos_red {
+  background-color: #ad0101;
+  width: 236px;
+  display: flex;
+  color: white;
+}
+.vision {
+  background: #e0e0e0;
+}
+.vvm >img{
+margin-top: 50px;
+width: 74px;
+height: 74px;
+margin-bottom: 35px;
+}
+.vvm >p{
+    font-size: 18px;
+}
+.vvm{
+    text-align: center;
+}
+.vvm >h2{
+    color: #040429;
+    font-weight: 800;
+font-size: 40px;
+    font-weight: bolder;
+}
+.vvm >p{
+    margin-bottom: 18px;
+}
+.derniere{
+    margin-top: 30px;
+    color: #fff;
+    padding-bottom: 20px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.derniere >img{
+    margin-top: 28px;
+    margin-left: 81px;
+    margin-bottom: 20px;
+}
+.derniere >h2{
+    font-size: 24px;
+    margin-left: 81px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.derniere >p{
+font-size: 18px;
+line-height: 105%;
+text-align: justify;
+margin: 18px 81px;
+}

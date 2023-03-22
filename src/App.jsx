@@ -5,7 +5,7 @@ import Acceuil from "./Pages/Acceuil.jsx";
 import "./App.scss";
 import "./index.css";
 import "./Component/style.css";
-import About from "./Pages/Navbar.jsx";
+import About from "./Pages/About.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

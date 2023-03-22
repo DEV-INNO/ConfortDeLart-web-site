@@ -30,12 +30,10 @@ const header = {
   },
 };
 
-function Acceuil({ title }) {
+function NavBar() {
   return (
     <>
-      <div id="back">
-        <motion.div initial="initial" animate="animate" className="acceuil">
-          <motion.header variants={stagger}>
+      <motion.header variants={stagger}>
             <motion.div className="logo-wrapper" variants={header}>
               Art <span>Confort</span>
             </motion.div>
@@ -54,12 +52,8 @@ function Acceuil({ title }) {
               </motion.span>
             </motion.div>
           </motion.header>
-          <h2>{title || ""}</h2>
-        </motion.div>
-      </div>
-      <Footer />
     </>
   );
 }
 
-export default Acceuil;
+export default NavBar;

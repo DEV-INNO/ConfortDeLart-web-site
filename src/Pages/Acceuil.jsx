@@ -8,6 +8,7 @@ import Footer from "../Component/Footer";
 import Slider from "react-slick";
 import casque from "../assets/images/casque.png";
 import { Link } from "react-router-dom";
+import NavBar from "./Navbar";
 
 let easeing = [0.6, -0.05, 0.01, 0.99];
 
@@ -91,35 +92,7 @@ function Acceuil() {
     <>
       <div id="back">
         <motion.div initial="initial" animate="animate" className="acceuil">
-          <motion.header variants={stagger}>
-            <motion.div className="logo-wrapper" variants={header}>
-              Art <span>Confort</span>
-            </motion.div>
-            <motion.div className="menu_container" variants={stagger}>
-              <span>
-                <Link
-                  to="/"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  Acceuil
-                </Link>
-              </span>
-              <span>
-                <Link
-                  to="/about"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  A propos
-                </Link>
-              </span>
-              <span>Projets</span>
-              <span>Services</span>
-              <span>Equipe</span>
-              <motion.span className="menu" id="menu" variants={header}>
-                Contactez-nous
-              </motion.span>
-            </motion.div>
-          </motion.header>
+          <NavBar/>
           <motion.div
             className="content_wrapper"
             initial={{ opacity: 0, scale: 0 }}
