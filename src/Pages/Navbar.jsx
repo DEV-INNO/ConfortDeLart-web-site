@@ -44,7 +44,9 @@ function NavBar() {
               <span>
                 <Link to="/about" style={{textDecoration:"none", color:"inherit"}}>A propos</Link>
               </span>
-              <span>Projets</span>
+              <span>
+                <Link to="/projet" style={{textDecoration:"none", color:"inherit"}}>Projets</Link>
+              </span>
               <span>Services</span>
               <span>Equipe</span>
               <motion.span className="menu" id="menu" variants={header}>

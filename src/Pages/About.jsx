@@ -8,7 +8,7 @@ import mission from "../assets/icons/mission.png";
 import promotion from "../assets/icons/promotion.png";
 import metal from "../assets/icons/metal.png";
 
-function Acceuil({ title }) {
+function Abouts({ title }) {
   return (
     <div>
       <div className="aboutNav">
@@ -218,4 +218,4 @@ function Acceuil({ title }) {
   );
 }
 
-export default Acceuil;
+export default Abouts;
