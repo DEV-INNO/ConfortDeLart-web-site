@@ -5,19 +5,17 @@
 }
 
 @media screen and (max-width: 768px) {
-  #root {
-    overflow: hidden;
-  }
+ 
   .logo-wrapper {
     display: none;
   }
- 
+
   .menu_container #menu {
     display: none;
   }
   .menu_container > span {
-    width: 25% !important;
-    margin-left: 20px;
+    width: 10px !important;
+    margin-left: 10px;
   }
   /* Carousel */
   .content_wrapper {
@@ -35,11 +33,14 @@
     width: 100% !important;
   }
   .left_content_wrapper > h2 > span > span {
-    font-size: 30px !important;
+    font-size: 50px !important;
   }
   .left_content_wrapper > p {
-    font-size: 10px !important;
+    font-size: 20px !important;
+    text-align: center;
   }
+
+  
   .btn_group {
     width: 100%;
     margin-bottom: 20px;
@@ -87,36 +88,37 @@
     width: calc(100% / 2) !important;
     position: relative !important;
   }
-  .firstrow >div .footer-title{
+  .firstrow > div .footer-title {
     margin-left: 20px;
     text-align: center;
     font-size: 40px;
   }
-  .firstrow >div .subtitle{
-    margin-bottom: 10px!important;
+  .firstrow > div .subtitle {
+    margin-bottom: 10px !important;
     margin-left: 20px;
   }
-  .footer-titleGauche{
+  .footer-titleGauche {
     text-align: center;
   }
-  .subtitleGauche{
-    margin-right: 0px!important;
+  .subtitleGauche {
+    margin-right: 0px !important;
   }
-  .message-div{margin-bottom: 20px!important;}
-  .footerclasse > p{
-    margin-left: 10px!important;
-    text-align: center!important;
+  .message-div {
+    margin-bottom: 20px !important;
   }
-  
-  .fin > p{
-    font-size:  10px!important;
+  .footerclasse > p {
+    margin-left: 10px !important;
+    text-align: center !important;
+  }
+
+  .fin > p {
+    font-size: 10px !important;
     margin-top: 5px;
   }
-  .message-div > button{
-    margin-left: 10px!important;
-    padding: 10px 20px!important;
+  .message-div > button {
+    margin-left: 10px !important;
+    padding: 10px 20px !important;
   }
-  
 }
 @media screen and (max-width: 450px) {
   .card {
@@ -150,88 +152,124 @@
 }
 /* Second responsivité */
 
-@media screen and (max-width:1252px) {
-  .spanconfor{
-    font-size: 60px!important;
+@media screen and (max-width: 1252px) {
+  .spanconfor {
+    font-size: 60px !important;
   }
- .content_wrapper{
-  margin-top: 0;
-  padding-top: 0;
- }
+  .content_wrapper {
+    margin-top: 0;
+    padding-top: 0;
+  }
 }
-@media screen and (max-width:1165px) {
-  .logo-wrapper{
+@media screen and (max-width: 1165px) {
+  .logo-wrapper {
     width: 200px;
   }
-  .confor{
-    padding-top: 100px!important;
+  .confor {
+    padding-top: 100px !important;
   }
-  .text >h3{
+  .text > h3 {
     line-height: 10px;
-    font-size: 30px!important;
+    font-size: 30px !important;
   }
-  .text >p{
-    font-size: 20px!important;
+  .text > p {
+    font-size: 20px !important;
   }
-  .text >img{
-    margin-left: 15rem!important;
+  .text > img {
+    margin-left: 15rem !important;
   }
-  .footer-title{
+  .footer-title {
     font-size: 35px;
     text-align: center;
   }
-  .footerclasse >h2{
-    font-weight: bolder!important;
+  .footerclasse > h2 {
+    font-weight: bolder !important;
   }
-  .footerclasse >p{
+  .footerclasse > p {
     font-size: 15px;
     margin-left: 20px;
   }
-  .footer-titleGauche{
+  .footer-titleGauche {
     font-size: 35px;
   }
-  .subtitleGauche{
+  .subtitleGauche {
     margin-right: 40px;
   }
-  .menu_container >span{
+  .menu_container > span {
     margin-left: 20px;
   }
 }
-@media screen and (max-width:991px) {
-  .confor{
-    margin-top: 28rem!important;
-    padding: 0!important;
+@media screen and (max-width: 991px) {
+  .confor {
+    margin-top: 28rem !important;
+    padding: 0 !important;
     width: 100vw;
   }
-  .text >img{
-    margin-left: 10rem!important;
+  .text > img {
+    margin-left: 10rem !important;
   }
-  .text >p{
-    font-size: 18px!important;
+  .text > p {
+    font-size: 18px !important;
     margin-right: 10px;
-    line-height: 190%!important;
+    line-height: 190% !important;
   }
- 
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
   .menu_container {
     display: flex;
     justify-content: space-around;
     width: 1000px;
     height: 56px;
   }
-  .menu_container >span{
+  .menu_container > span {
     margin-left: 20px;
   }
-
+}
+@media screen and (max-width: 962px) {
+  .menu_container > span {
+    width: 100px !important;
   }
-  @media screen and (max-width:962px) {
-    .menu_container >span{
-      margin-left: 20px;
-      width: 20px;
-      background-color: red;
-      word-spacing: normal;
-    }
-    
+  .menu_container .menu {
+    font-size: 12px;
+    width: 20% !important;
   }
+}
+@media screen and (max-width: 930px) {
+  .spanconfor {
+    font-size: 50px !important;
+  }
+  .content_wrapper .left_content_wrapper > p {
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: justify;
+  }
+}
+@media screen and (max-width:860px) {
+  .menu_container >span {
+    font-size: 20px;
+    width: 20% !important;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width:782px) {
+  .menu_container >span {
+    font-size: 15px;
+    width: 20% !important;
+    margin-left: 10px;
+  }
+  .menu_container .menu {
+    font-size: 15px;
+    width: 50% !important;
+    margin-left: 10px;
+  }
+  .spanconfor{
+    font-size: 40px!important;
+  }
+  .left_content_wrapper >h2{
+    text-align: center;
+  }
+  .content_wrapper .left_content_wrapper > p {
+    text-align: center;
+  }
+}
