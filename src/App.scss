@@ -27,15 +27,23 @@ header {
   @extend .dflex;
   justify-content: space-between;
   padding: 0 3%;
-  background-color: transparent;
-  // background-color: $light_green;
-  color: $white;
-  height: 120px;
+  background-color: $white;
+  color: $black;
+  z-index: 100;
+  height: 81px;
   .logo-wrapper {
     font-weight: 600;
     span {
       color: $white;
       font-size: 20px!important;
+    }
+    div{
+      img{
+        width: 100px;
+      height: 80px;
+      background-color: transparent
+      }
+      
     }
   }
   .menu_container {
@@ -81,7 +89,7 @@ header {
           margin-right: 20px;
         }
       }
-      &.menu {
+      &#menu {
         @extend .dflex;
         width: 140px;
         height: 56px;

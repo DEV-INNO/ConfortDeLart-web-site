@@ -281,31 +281,90 @@
   margin-top: 20px;
   background: #212146;
   padding: 60px 0px;
-  
 }
-.servicelitterature > div>h2 {
+.servicelitterature > div > h2 {
   font-weight: 800;
   font-size: 45px;
   text-transform: uppercase;
   color: #ad0101;
 }
-.servicelitterature >div>p{
-font-size: 24px;
-line-height: 170%;
-margin-top: 26px;
-text-align: justify;
-width: 1200px;
-color: #FFFFFF;
+.servicelitterature > div > p {
+  font-size: 24px;
+  line-height: 170%;
+  margin-top: 26px;
+  text-align: justify;
+  width: 1200px;
+  color: #ffffff;
 }
-.servicelitterature >div>button{
-    background-color: #ad0101;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 20px;
-    color: wheat;
+.servicelitterature > div .lien > button {
+  background-color: #ad0101;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  color: wheat;
 }
-.ceintureservice{
-    height: 5px;
+.ceintureservice {
+  height: 5px;
   background-color: red;
   width: 100vw;
+}
+
+/* Voir plus */
+.voirplus {
+  background-image: url("../assets/images/Rectangle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 551px;
+}
+.voirplus > div > div > div {
+  height: 550px;
+  position: relative;
+}
+.voirplus > div > div > div > h2 {
+  position: absolute;
+  bottom: 100px;
+  font-size: 45px;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.plusceinture {
+  display: flex;
+  height: 20px;
+}
+.plusceinture > div {
+  height: 6px;
+  width: 100vw;
+}
+.voirpluscard {
+  background: #ad0101;
+  border-radius: 20px;
+  min-height: 400px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.voirpluscard > div > img {
+  height: 80px;
+  width: 80px;
+  padding: auto auto;
+  margin: auto auto;
+}
+.voirpluscard > div > h3 {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 118%;
+  text-align: center;
+  color: #f1ebeb;
+  margin: 30px 10px;
+}
+.voirpluscard > div > p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 158%;
+  text-align: justify;
+  padding: 5px 20px;
+  color: #ffffff;
 }

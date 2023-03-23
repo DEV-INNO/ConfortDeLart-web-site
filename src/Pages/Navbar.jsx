@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.png"
 
 let easeing = [0.6, -0.05, 0.01, 0.99];
 
@@ -34,7 +35,10 @@ function NavBar({classe}) {
     <>
       <motion.header variants={stagger}>
             <motion.div className="logo-wrapper" variants={header}>
-              Art <span>Confort</span>
+              <div className="logo">
+              <img src={logo} alt="logo"/>
+              </div >
+              {/* Art <span>Confort</span> */}
             </motion.div>
             <motion.div className="menu_container" variants={stagger}>
               <span>
@@ -44,12 +48,14 @@ function NavBar({classe}) {
                 <Link to="/about" style={{textDecoration:"none", color:"inherit"}}>A propos</Link>
               </span>
               <span>
-                <Link to="/projet" style={{textDecoration:"none", color:"inherit"}}>Projets</Link>
+                <a href="#projet" style={{textDecoration:"none", color:"inherit"}}>Projets</a>
               </span>
               <span>
                 <Link to="/service" style={{textDecoration:"none", color:"inherit"}}>Service</Link>
               </span>
-              <span>Equipe</span>
+              <span>
+                <a href="#item" style={{textDecoration:"none", color:"inherit"}}>Equipe</a>
+                </span>
               <motion.span className={`${classe}`} id="menu" variants={header}>
                 Contactez-nous
               </motion.span>

@@ -7,7 +7,7 @@ import projet from "../assets/icons/projet.png";
 
 function Service() {
   return (
-    <div className="services">
+    <div className="services" id="projet">
       <h4 className="titleProjet">Nos Récent Projets</h4>
       <div className="bodyCard">
         <div className="container-fluid">
@@ -123,13 +123,10 @@ function Service() {
             </div>
           </div>
         </div>
-        
       </div>
-      <div className="ceinture">
+      <div className="ceinture"></div>
 
-        </div>
-
-      <div id="team" className="team mb-5">
+      <div id="team equipe" className="team mb-5">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

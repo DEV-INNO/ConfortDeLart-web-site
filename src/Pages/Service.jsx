@@ -8,6 +8,7 @@ import table from "../assets/icons/table.png";
 import carpentry from "../assets/icons/carpentry.png";
 import deal from "../assets/icons/deal.png";
 import construction from "../assets/icons/construction.png";
+import { Link } from "react-router-dom";
 
 function Service() {
   const content = [
@@ -90,7 +91,11 @@ function Service() {
           diriger vers une entreprise sérieuse et spécialisée dans le type de
           travaux qui vous intéresse. Voici les étapes à suivre :
         </p>
-        <button>voir plus</button>
+        
+            <Link to="/plus" className="lien">
+            <button>voir plus</button>
+            </Link>
+        
         </div>
       </div>
       <div className="ceintureservice">
