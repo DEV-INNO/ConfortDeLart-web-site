@@ -124,8 +124,10 @@ function Service() {
                 data-purecounter-start="0"
                 data-purecounter-end="232"
                 data-purecounter-duration="1"
-                className="purecounter"
-              ></span>
+                className="count"
+              >
+                300
+              </span>
               <p>Projets en exécution</p>
             </div>
 
@@ -163,77 +165,77 @@ function Service() {
           </div>
         </div>
       </div>
+      
       <div className="ceinture"></div>
       <div className="personnels">
         <h3 className="lateam">TEAM CONFORT DE L'ART</h3>
-      <Slider {...settings}>
-        <div className="cardpersonne">
-          <div>
+        <Slider {...settings}>
+          <div className="cardpersonne">
             <div>
               <div>
-                <img src={team1} alt="chantier" />
-              </div>
-              <div>
-                <h3>Josephine NDEZE</h3>
-                <p>Ingenieur</p>
+                <div>
+                  <img src={team1} alt="chantier" />
+                </div>
+                <div>
+                  <h3>Josephine NDEZE</h3>
+                  <p>Ingenieur</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="cardpersonne">
-          <div>
+          <div className="cardpersonne">
             <div>
               <div>
-                <img src={team2} alt="chantier" />
-              </div>
-              <div>
-                <h3>Josephine NDEZE</h3>
-                <p>Ingenieur</p>
+                <div>
+                  <img src={team2} alt="chantier" />
+                </div>
+                <div>
+                  <h3>Josephine NDEZE</h3>
+                  <p>Ingenieur</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="cardpersonne">
-          <div>
+          <div className="cardpersonne">
             <div>
               <div>
-                <img src={team3} alt="chantier" />
-              </div>
-              <div>
-                <h3>Josephine NDEZE</h3>
-                <p>Ingenieur</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="cardpersonne">
-          <div>
-            <div className="cardser">
-              <div>
-                <img src={team4} alt="chantier" />
-              </div>
-              <div className="cardidentite">
-                <h3>Josephine NDEZE</h3>
-                <p>Ingenieur</p>
+                <div>
+                  <img src={team3} alt="chantier" />
+                </div>
+                <div>
+                  <h3>Josephine NDEZE</h3>
+                  <p>Ingenieur</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="cardpersonne">
-          <div>
+          <div className="cardpersonne">
+            <div>
+              <div className="cardser">
+                <div>
+                  <img src={team4} alt="chantier" />
+                </div>
+                <div className="cardidentite">
+                  <h3>Josephine NDEZE</h3>
+                  <p>Ingenieur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="cardpersonne">
             <div>
               <div>
-                <img src={team1} alt="chantier" />
-              </div>
-              <div>
-                <h3>Josephine NDEZE</h3>
-                <p>Ingenieur</p>
+                <div>
+                  <img src={team1} alt="chantier" />
+                </div>
+                <div>
+                  <h3>Josephine NDEZE</h3>
+                  <p>Ingenieur</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </Slider>
-
+        </Slider>
       </div>
     </div>
   );
