@@ -307,3 +307,20 @@
 .counts{
   width: 100vw;
 }
+.cardpersonne{
+  background-color: rgb(255, 255, 255);
+  margin-right: 10px;
+  border: 1px solid;
+  margin-bottom: 20px;
+  width: calc(100% / 4 - 10px);
+}
+.cardpersonne >div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardpersonne >div >img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

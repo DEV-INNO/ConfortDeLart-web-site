@@ -4,8 +4,47 @@ import client from "../assets/icons/client.png";
 import chantier from "../assets/icons/chantier.png";
 import ingenieur from "../assets/icons/ingenieur.png";
 import projet from "../assets/icons/projet.png";
+import Slider from "react-slick";
+import team1 from "../assets/images/team/team1.jpg";
+import team2 from "../assets/images/team/team2.jpg";
+import team3 from "../assets/images/team/team3.jpg";
+import team4 from "../assets/images/team/team4.jpg";
 
 function Service() {
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
   return (
     <div className="services" id="projet">
       <h4 className="titleProjet">Nos Récent Projets</h4>
@@ -125,172 +164,45 @@ function Service() {
         </div>
       </div>
       <div className="ceinture"></div>
-
-      <div id="team equipe" className="team mb-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="row">
-                <div className="col-lg-6">
-                  <div
-                    className="member"
-                    data-aos="zoom-in"
-                    data-aos-delay="100"
-                  >
-                    <div className="pic">
-                      <img
-                        src="assets/img/team/team-1.jpg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div className="member-info">
-                      <h4>Walter White</h4>
-                      <span>Chief Executive Officer</span>
-                      <p>
-                        Explicabo voluptatem mollitia et repellat qui dolorum
-                        quasi
-                      </p>
-                      <div className="social">
-                        <a href="">
-                          <i className="ri-twitter-fill"></i>
-                        </a>
-                        <a href="">
-                          <i className="ri-facebook-fill"></i>
-                        </a>
-                        <a href="">
-                          <i className="ri-instagram-fill"></i>
-                        </a>
-                        <a href="">
-                          {" "}
-                          <i className="ri-linkedin-box-fill"></i>{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 mt-4 mt-lg-0">
-                  <div
-                    className="member"
-                    data-aos="zoom-in"
-                    data-aos-delay="200"
-                  >
-                    <div className="pic">
-                      <img
-                        src="assets/img/team/team-2.jpg"
-                        className="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div className="member-info">
-                      <h4>Sarah Jhonson</h4>
-                      <span>Product Manager</span>
-                      <p>
-                        Aut maiores voluptates amet et quis praesentium qui
-                        senda para
-                      </p>
-                      <div className="social">
-                        <a href="">
-                          <i className="ri-twitter-fill"></i>
-                        </a>
-                        <a href="">
-                          <i className="ri-facebook-fill"></i>
-                        </a>
-                        <a href="">
-                          <i className="ri-instagram-fill"></i>
-                        </a>
-                        <a href="">
-                          {" "}
-                          <i className="ri-linkedin-box-fill"></i>{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 mt-4">
-                  <div
-                    className="member"
-                    data-aos="zoom-in"
-                    data-aos-delay="300"
-                  >
-                    <div className="pic">
-                      <img
-                        src="assets/img/team/team-3.jpg"
-                        className="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div className="member-info">
-                      <h4>William Anderson</h4>
-                      <span>CTO</span>
-                      <p>
-                        Quisquam facilis cum velit laborum corrupti fuga rerum
-                        quia
-                      </p>
-                      <div className="social">
-                        <a href="">
-                          <i className="ri-twitter-fill"></i>
-                        </a>
-                        <a href="">
-                          <i className="ri-facebook-fill"></i>
-                        </a>
-                        <a href="">
-                          <i className="ri-instagram-fill"></i>
-                        </a>
-                        <a href="">
-                          {" "}
-                          <i className="ri-linkedin-box-fill"></i>{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 mt-4">
-                  <div
-                    className="member"
-                    data-aos="zoom-in"
-                    data-aos-delay="400"
-                  >
-                    <div className="pic">
-                      <img
-                        src="assets/img/team/team-4.jpg"
-                        className="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div className="member-info">
-                      <h4>Amanda Jepson</h4>
-                      <span>Accountant</span>
-                      <p>
-                        Dolorum tempora officiis odit laborum officiis et et
-                        accusamus
-                      </p>
-                      <div className="social">
-                        <a href="">
-                          <i className="ri-twitter-fill"></i>
-                        </a>
-                        <a href="">
-                          <i className="ri-facebook-fill"></i>
-                        </a>
-                        <a href="">
-                          <i className="ri-instagram-fill"></i>
-                        </a>
-                        <a href="">
-                          {" "}
-                          <i className="ri-linkedin-box-fill"></i>{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <Slider {...settings}>
+        <div className="cardpersonne">
+          <div>
+            <img src={team1} alt="chantier" />
+          </div>
+          <div>
+            <h3>Josephine NDEZE</h3>
+            <p>Ingenieur</p>
           </div>
         </div>
-      </div>
+        <div className="cardpersonne">
+          <div>
+            <img src={team2} alt="chantier" />
+          </div>
+          <div>
+            <h3>Josephine NDEZE</h3>
+            <p>Ingenieur</p>
+          </div>
+        </div>
+        <div className="cardpersonne">
+          <div>
+            <img src={team3} alt="chantier" />
+          </div>
+          <div>
+            <h3>Josephine NDEZE</h3>
+            <p>Ingenieur</p>
+          </div>
+        </div>
+        <div className="cardpersonne">
+          <div>
+            <img src={team4} alt="chantier" />
+          </div>
+          <div>
+            <h3>Josephine NDEZE</h3>
+            <p>Ingenieur</p>
+          </div>
+        </div>
+        
+      </Slider>
     </div>
   );
 }
