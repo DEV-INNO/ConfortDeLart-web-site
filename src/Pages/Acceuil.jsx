@@ -7,7 +7,8 @@ import Service from "../Component/Service";
 import Footer from "../Component/Footer";
 import Slider from "react-slick";
 import casque from "../assets/images/casque.png";
-import { Link } from "react-router-dom";
+import other from "../assets/images/other.png";
+import others from "../assets/images/others.png";
 import NavBar from "./Navbar";
 
 let easeing = [0.6, -0.05, 0.01, 0.99];
@@ -302,16 +303,11 @@ function Acceuil() {
                 <Slider {...settings}>
                   <img src={image} alt="carousel1" />
                   <img src={casque} alt="carousel2" />
-                  <img src={image} alt="carousel3" />
+                  <img src={other} alt="Other" />
+                  <img src={others} alt="carousel2" />
                 </Slider>
               </div>
-              {/* <motion.img
-              src={image}
-              alt="bg"
-              initial={{ x: 200, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.8 }}
-            /> */}
+              
             </motion.div>
           </motion.div>
           

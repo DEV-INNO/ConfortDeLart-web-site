@@ -86,3 +86,19 @@
   text-align: justify;
   font-weight: 500;
 }
+.imageconfor{
+  height: 700px;
+  width: 500px;
+  border-radius: 20px;
+}
+.conforclasse:first-child{
+  margin-left: 70px;
+}
+.conforclasse{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conforclasse .text{
+  margin: 50px;
+}

@@ -18,12 +18,12 @@ function Confor() {
   return (
     <div className="confor">
       <div className="container-fluid">
-        <div className="row">
+        <div className="conforclasse">
           <div className="col-xs-12 col-md-6 col-lg-6 col-sm-12">
             <Slider {...settings}>
-              <img src={confor} alt="Confor"/>
-              <img src={confor1} alt="Confor1"/>
-              <img src={confor2} alt="Confor2" />
+              <img src={confor} className="imageconfor" alt="Confor"/>
+              <img src={confor1} className="imageconfor" alt="Confor1"/>
+              <img src={confor2} className="imageconfor" alt="Confor2" />
             </Slider>
           </div>
           <div className="col-xs-12 col-md-6 col-lg-6 col-sm-12 text">
