@@ -35,10 +35,8 @@ function NavBar({classe}) {
     <>
       <motion.header variants={stagger}>
             <motion.div className="logo-wrapper" variants={header}>
-              <div className="logo">
-              <img src={logo} alt="logo"/>
-              </div >
-              {/* Art <span>Confort</span> */}
+              
+              Art <span>Confort</span>
             </motion.div>
             <motion.div className="menu_container" variants={stagger}>
               <span>

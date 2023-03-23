@@ -27,8 +27,8 @@ header {
   @extend .dflex;
   justify-content: space-between;
   padding: 0 3%;
-  background-color: $white;
-  color: $black;
+  background-color: $light_green;
+  color: $white;
   z-index: 100;
   height: 81px;
   .logo-wrapper {
@@ -37,14 +37,7 @@ header {
       color: $white;
       font-size: 20px!important;
     }
-    div{
-      img{
-        width: 100px;
-      height: 80px;
-      background-color: transparent
-      }
-      
-    }
+  
   }
   .menu_container {
     @extend .dflex;
