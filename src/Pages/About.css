@@ -232,29 +232,30 @@
   background-size: cover;
   background-position: center;
 }
-.contentservice,
+
 .cardservice > div > div,
-.servicelitterature {
+.servicelitterature, .serviceemma {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contentservice > div > h2 {
+
+.serviceemma > div > h2 {
   font-weight: 800;
   font-size: 48px;
   line-height: 96%;
-  /* identical to box height, or 46px */
-
   text-transform: uppercase;
   font-weight: bolder;
   color: #ad0101;
+  text-align: center;
 }
-.contentservice > div > p {
+.serviceemma > div > p {
   font-weight: 300;
   font-size: 24px;
   color: #fff;
   margin-top: 40px;
   font-weight: bolder;
+  text-align: center;
 }
 .cardservice {
   height: 238px;

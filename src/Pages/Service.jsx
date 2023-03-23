@@ -42,16 +42,9 @@ function Service() {
       </div>
       <div className="container-fluid firstdiv">
         <div className="serviceemma">
-          <div className="row" style={{ width: "100vw" }}>
-            <div className="col-md-6 col-lg-6 col-sm-12 contentservice">
-              <img src={emmanuel} alt="emmanuel" />
-            </div>
-            <div className="col-md-6 col-lg-6 col-sm-12 contentservice">
-              <div>
-                <h2>SERVICES</h2>
-                <p>Avec Confort de l’Art trouver des services des qualités</p>
-              </div>
-            </div>
+          <div>
+            <h2>SERVICES</h2>
+            <p>Avec Confort de l’Art trouver des services des qualités</p>
           </div>
         </div>
         <div className="laqualite">
@@ -80,27 +73,20 @@ function Service() {
       </div>
       <div className="servicelitterature">
         <div>
-        <h2>Nos Travaux en genie civile</h2>
-        <p>
-          Choisir une entreprise pour réaliser ses travaux de Génie Civil est
-          une étape critique. Il faut en effet trouver l’entreprise qui sera à
-          l’écoute de votre projet, de vos besoins, mais qui sera aussi capable
-          de concevoir et d’élaborer des solutions techniques propres à vos
-          spécificités.Or, le Génie Civil est un terme large qui recouvre un
-          grand nombre de compétences. Il est de ce fait primordial de se
-          diriger vers une entreprise sérieuse et spécialisée dans le type de
-          travaux qui vous intéresse. Voici les étapes à suivre :
-        </p>
-        
-            <Link to="/plus" className="lien">
-            <button>voir plus</button>
-            </Link>
-        
+          <h2>Nos Travaux en genie civile</h2>
+          <p>
+            Choisir une entreprise pour réaliser ses travaux de Génie Civil est
+            une étape critique. Il faut en effet trouver l’entreprise qui sera à
+            l’écoute de votre projet, de vos besoins, mais qui sera aussi
+            capable de concevoir et d’élaborer des solutions techniques propres
+            à vos spécificités.Or, le Génie Civil est un terme large qui
+            recouvre un grand nombre de compétences. Il est de ce fait
+            primordial de se diriger vers une entreprise sérieuse et spécialisée
+            dans le type de travaux qui vous intéresse.
+          </p>
         </div>
       </div>
-      <div className="ceintureservice">
-
-      </div>
+      <div className="ceintureservice"></div>
 
       <Footer />
     </>
